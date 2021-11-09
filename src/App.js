@@ -1,11 +1,17 @@
+import { Component } from 'react';
+import './App.css'
 
+import Navbar from './components/layout/Navbar';
 
-function App() {
-  return (
-    <div className="App">
-      <h1>Hello Programmers!</h1>
-    </div>
-  );
+class App extends Component {
+
+  render(){  
+    return (
+      <div className="App">
+        <Navbar title="Github Finder" />
+      </div>
+    );
+  } 
 }
 
 export default App;
