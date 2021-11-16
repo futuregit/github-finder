@@ -14,10 +14,7 @@ const Navbar = ({ icon, title}) => {
                 </li>
                 <li>
                     <Link to="/about">About</Link>
-                </li>
-                <li>
-                    <Link to="/user/:login">User</Link>
-                </li>
+                </li>            
             </ul>
         </nav>
     )
